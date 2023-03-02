@@ -10,9 +10,13 @@
 
 ## Date: 03/03/23
 
-### By: Rafael Montes, Clifton Lucas and Michael Durando
+## By:
 
-#### [Trello](https://trello.com/b/iORWTd8g/six-flags-review) | [Component Hierarcy Diagram and ERD](https://lucid.app/lucidchart/e789625d-777c-4d90-9ac2-80ffac9c213c/edit?invitationId=inv_c83c37fc-a5f5-4493-a00d-a8cd281552c2&referringApp=slack&page=0_0#) |
+### Rafael Montes ||[LinkedIn](www.linkedin.com/in/rafael-montes-9040491a5)||[GitHub](https://github.com/RafaelIgnacioMontes) 
+### Clifton Lucas||[LinkedIn](https://www.linkedin.com/in/clifton-lucas-b80540121/)||[GitHub](https://github.com/Cliftonlucas1) 
+### Michael Durando||[LinkedIn](https://www.linkedin.com/in/michael-durando-101050138/)||[GitHub](https://github.com/mjdurando82)
+
+#### [Trello](https://trello.com/b/6PQ2BLxZ/project-3) | [Component Hierarcy Diagram and ERD](https://lucid.app/lucidchart/e789625d-777c-4d90-9ac2-80ffac9c213c/edit?invitationId=inv_c83c37fc-a5f5-4493-a00d-a8cd281552c2&referringApp=slack&page=0_0#) |
 
 ### **_Description_**
 
@@ -30,7 +34,7 @@
 
 ### **_Getting Started_**
 
-##### Check out the home page of all the roller coasters at Six Flags Great Adventure in Jackson, New Jersey. Click on review located on the navigation bar to start your review!
+#### This is a space for all car fanatics to come and show off their cool cars and share their collections with other people. Here you can express your favorite types of cars, colors, models, makes, year, etc. Come join our cult of car lovers!
 
 ---
 ###### Home
@@ -45,19 +49,21 @@
 
 ### **_Future Updates_**
 
-- [ ] Have an initial page with navigatable images to a full page of the ride
-- [ ] Additional parks
-- [ ] Videos of rides on the page
+- [ ] Cars Search Engine
+- [ ] Comment Section
 - [ ] Likes and dislikes counter
-- [ ] User authentication
-- [ ] Add a search bar for rides
+- [ ] Integrate a 3rd party API
+- [ ] Integrate a UI Library (Semantic, Material-UI, React-MD, react-rainbow, r-suite)
+
 
 ---
 
 ### **_Credits_**
 
-##### React: [React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_filtering_conditional_rendering)
+#####  [React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_filtering_conditional_rendering)
 
-##### CRUD: [CRUD](https://geeksforgeeks.com/)
+#####  [CRUD](https://geeksforgeeks.com/)
 
-##### CSS: [CSS](https://weekendprojects.dev/posts/which-responsive-media-query-breakpoints-should-you-use/)
+#####  [CSS](https://weekendprojects.dev/posts/which-responsive-media-query-breakpoints-should-you-use/)
+
+##### [PostgreSQL](https://www.postgresql.org/)
