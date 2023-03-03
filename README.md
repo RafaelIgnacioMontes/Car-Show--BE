@@ -1,5 +1,7 @@
 # Project-3-Back-End
-----------------------------------------------------------------------
+
+---
+
 # Car Show
 
 ####
@@ -12,15 +14,17 @@
 
 ## By:
 
-### Rafael Montes ||[LinkedIn](www.linkedin.com/in/rafael-montes-9040491a5)||[GitHub](https://github.com/RafaelIgnacioMontes) 
-### Clifton Lucas||[LinkedIn](https://www.linkedin.com/in/clifton-lucas-b80540121/)||[GitHub](https://github.com/Cliftonlucas1) 
+### Rafael Montes ||[LinkedIn](www.linkedin.com/in/rafael-montes-9040491a5)||[GitHub](https://github.com/RafaelIgnacioMontes)
+
+### Clifton Lucas||[LinkedIn](https://www.linkedin.com/in/clifton-lucas-b80540121/)||[GitHub](https://github.com/Cliftonlucas1)
+
 ### Michael Durando||[LinkedIn](https://www.linkedin.com/in/michael-durando-101050138/)||[GitHub](https://github.com/mjdurando82)
 
 #### [Trello](https://trello.com/b/6PQ2BLxZ/project-3) | [Component Hierarcy Diagram and ERD](https://lucid.app/lucidchart/e789625d-777c-4d90-9ac2-80ffac9c213c/edit?invitationId=inv_c83c37fc-a5f5-4493-a00d-a8cd281552c2&referringApp=slack&page=0_0#) |
 
 ### **_Description_**
 
-### A webiste where motorheads can show their collections to other motorheads.
+### A website where motorheads can show their collections to other motorheads.
 
 ---
 
@@ -37,10 +41,13 @@
 #### This is a space for all car fanatics to come and show off their cool cars and share their collections with other people. Here you can express your favorite types of cars, colors, models, makes, year, etc. Come join our cult of car lovers!
 
 ---
+
 ###### Home
+
 ### ![Home Page]()
 
 ###### Add a Car
+
 ### ![Add a Ride!]()
 
 ###### Register ![Join the Club]()
@@ -55,15 +62,14 @@
 - [ ] Integrate a 3rd party API
 - [ ] Integrate a UI Library (Semantic, Material-UI, React-MD, react-rainbow, r-suite)
 
-
 ---
 
 ### **_Credits_**
 
-#####  [React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_filtering_conditional_rendering)
+##### [React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_filtering_conditional_rendering)
 
-#####  [CRUD](https://geeksforgeeks.com/)
+##### [CRUD](https://geeksforgeeks.com/)
 
-#####  [CSS](https://weekendprojects.dev/posts/which-responsive-media-query-breakpoints-should-you-use/)
+##### [CSS](https://weekendprojects.dev/posts/which-responsive-media-query-breakpoints-should-you-use/)
 
 ##### [PostgreSQL](https://www.postgresql.org/)
