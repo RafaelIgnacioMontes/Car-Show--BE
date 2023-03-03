@@ -18,11 +18,11 @@ module.exports = {
         allowNull: false
       },
       year: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         allowNull: false
       },
       vin: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         allowNull: false
       },
       userId: {
@@ -54,7 +54,6 @@ module.exports = {
     })
   },
   async down(queryInterface, Sequelize) {
-
     await queryInterface.dropTable('cars')
   }
 }
