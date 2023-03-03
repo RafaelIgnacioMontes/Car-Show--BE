@@ -1,8 +1,9 @@
 const express = require('express')
 const cors = require('cors')
-const logger = require('morgan')
 const AuthRouter = require('./routes/AuthRouter')
-const PostRouter = require('./routes/PostRouter')
+const UserRouter = require('./routes/UserRouter')
+const CarsRouter = require('./routes/CarRouter')
+const CommentRouter = require('./routes/CommentRouter')
 
 const app = express()
 
