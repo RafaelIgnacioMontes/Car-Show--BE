@@ -2,12 +2,10 @@
   "name": "project-3-back-end",
   "version": "1.0.0",
   "description": "---------------------------------------------------------------------- # Car Show",
-
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-
     "start": "node server.js"
   },
   "keywords": [],
@@ -16,9 +14,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-
     "nodemon": "^2.0.21",
-
     "pg": "^8.9.0",
     "sequelize": "^6.29.0"
   }
