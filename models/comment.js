@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 const { Model } = require('sequelize')
 module.exports = (sequelize, DataTypes) => {
   class Comment extends Model {
@@ -32,18 +32,18 @@ module.exports = (sequelize, DataTypes) => {
       content: {
         type: DataTypes.STRING,
         allowNull: false
-      },
-
-      carsId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        field: 'car_id',
-        onDelete: 'CASCADE',
-        references: {
-          model: 'cars',
-          key: 'id'
-        }
       }
+
+      // carsId: {
+      //   type: DataTypes.INTEGER,
+      //   allowNull: false,
+      //   field: 'car_id',
+      //   onDelete: 'CASCADE',
+      //   references: {
+      //     model: 'cars',
+      //     key: 'id'
+      //   }
+      // }
     },
 
     {
