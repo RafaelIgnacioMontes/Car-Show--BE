@@ -33,7 +33,6 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false
       },
-
       carsId: {
         type: DataTypes.INTEGER,
         allowNull: false,
