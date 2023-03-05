@@ -25,6 +25,14 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
+      image: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      color: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
       userId: {
         type: Sequelize.INTEGER,
         field: 'user_id',
@@ -34,15 +42,6 @@ module.exports = {
           key: 'id'
         }
       },
-      // commentId: {
-      //   type: Sequelize.INTEGER,
-      //   field: 'comment_id',
-      //   onDelete: 'CASCADE',
-      //   references: {
-      //     model: 'comments',
-      //     key: 'id'
-      //   }
-      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -38,6 +38,14 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false
       },
+      image: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      color: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
       userId: {
         type: DataTypes.INTEGER,
         field: 'user_id',
@@ -47,15 +55,6 @@ module.exports = (sequelize, DataTypes) => {
           key: 'id'
         }
       }
-      // commentId: {
-      //   type: DataTypes.INTEGER,
-      //   field: 'comment_id',
-      //   onDelete: 'CASCADE',
-      //   references: {
-      //     model: 'comments',
-      //     key: 'id'
-      //   }
-      // }
     },
     {
       sequelize,
