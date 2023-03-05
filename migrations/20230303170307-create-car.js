@@ -34,15 +34,15 @@ module.exports = {
           key: 'id'
         }
       },
-      commentId: {
-        type: Sequelize.INTEGER,
-        field: 'comment_id',
-        onDelete: 'CASCADE',
-        references: {
-          model: 'comments',
-          key: 'id'
-        }
-      },
+      // commentId: {
+      //   type: Sequelize.INTEGER,
+      //   field: 'comment_id',
+      //   onDelete: 'CASCADE',
+      //   references: {
+      //     model: 'comments',
+      //     key: 'id'
+      //   }
+      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

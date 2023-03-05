@@ -6,4 +6,5 @@ const UserRouter = require('./UserRouter')
 Router.use('/car', CarRouter)
 Router.use('/comment', CommentRouter)
 Router.use('/user', UserRouter)
+Router.use('/auth', AuthRouter)
 module.exports = Router

@@ -19,14 +19,7 @@ const GetCarDetails = async (req, res) => {
 
 const CreateCar = async (req, res) => {
   try {
-    let userId = parseInt(req.params.user_id)
-    let commentId = parseInt(req.params.comment_id)
-    let carBody = {
-      userId,
-      commentId,
-      ...req.body
-    }
-    let car = await Car.create(carBody)
+    const car = await Car.create({ ...req.body })
     res.send(car)
   } catch (error) {
     throw error
