@@ -10,7 +10,7 @@ router.post(
   controller.CreateComment
 )
 router.put(
-  '/update',
+  '/update/:comment_id',
   middleware.stripToken,
   middleware.verifyToken,
   controller.UpdateComment
