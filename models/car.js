@@ -14,7 +14,8 @@ module.exports = (sequelize, DataTypes) => {
         onUpdate: 'CASCADE'
       })
       Car.hasMany(models.Comment, {
-        foreignKey: 'cars_id',
+        foreignKey: 'car_id',
+        as: 'comments',
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
       })
