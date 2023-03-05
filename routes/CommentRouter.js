@@ -15,3 +15,5 @@ router.put(
   middleware.verifyToken,
   controller.UpdateComment
 )
+
+module.exports = router
