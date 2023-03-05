@@ -40,6 +40,9 @@ const UpdateComment = async (req, res) => {
 
 const DeleteComment = async (req, res) => {
   try {
+    let commentId = parseInt(req.params.comment_id)
+    await Comment.destroy({ where: { id: commentId } })
+    res.send({ message: `Deleted Comment with an id of ${commentId}` })
   } catch (error) {
     throw error
   }
