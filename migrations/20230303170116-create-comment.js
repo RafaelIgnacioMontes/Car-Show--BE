@@ -23,16 +23,16 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      // carsId: {
-      //   type: Sequelize.INTEGER,
-      //   allowNull: false,
-      //   field: 'car_id',
-      //   onDelete: 'CASCADE',
-      //   references: {
-      //     model: 'cars',
-      //     key: 'id'
-      //   }
-      // },
+      carsId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        field: 'car_id',
+        onDelete: 'CASCADE',
+        references: {
+          model: 'cars',
+          key: 'id'
+        }
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
