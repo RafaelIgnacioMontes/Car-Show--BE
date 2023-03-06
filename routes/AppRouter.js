@@ -3,7 +3,7 @@ const CarRouter = require('./CarRouter')
 const CommentRouter = require('./CommentRouter')
 const UserRouter = require('./UserRouter')
 
-Router.use('/car', CarRouter)
+Router.use('/cars', CarRouter)
 Router.use('/comment', CommentRouter)
 Router.use('/user', UserRouter)
 Router.use('/auth', AuthRouter)
