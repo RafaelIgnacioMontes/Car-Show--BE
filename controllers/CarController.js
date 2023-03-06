@@ -10,6 +10,16 @@ const GetAllCars = async (req, res) => {
   }
 }
 
+const GetAllCarsForUser = async (req, res) => {
+  try {
+    let userId = parseInt(req.params.user_id)
+    const userCars = await Car.findAll({ where: { user_id: userId } })
+    res.send(userCars)
+  } catch (error) {
+    throw error
+  }
+}
+
 const CreateCar = async (req, res) => {
   try {
     const car = await Car.create({ ...req.body })
@@ -32,5 +42,6 @@ const DeleteCar = async (req, res) => {
 module.exports = {
   GetAllCars,
   CreateCar,
-  DeleteCar
+  DeleteCar,
+  GetAllCarsForUser
 }

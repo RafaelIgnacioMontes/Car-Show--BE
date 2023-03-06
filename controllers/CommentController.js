@@ -12,10 +12,10 @@ const GetAllComments = async (req, res) => {
 const CreateComment = async (req, res) => {
   try {
     let userId = parseInt(req.params.user_id)
-    let carId = parseInt(req.params.car_id)
+    let carsId = parseInt(req.params.car_id)
     let commentBody = {
       userId,
-      carId,
+      carsId,
       ...req.body
     }
     let comment = await Comment.create(commentBody)
