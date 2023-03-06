@@ -10,13 +10,6 @@ const GetAllCars = async (req, res) => {
   }
 }
 
-const GetCarDetails = async (req, res) => {
-  try {
-  } catch (error) {
-    throw error
-  }
-}
-
 const CreateCar = async (req, res) => {
   try {
     const car = await Car.create({ ...req.body })
@@ -28,6 +21,9 @@ const CreateCar = async (req, res) => {
 
 const DeleteCar = async (req, res) => {
   try {
+    let carId = parseInt(req.params.car_id)
+    await Car.destroy({ where: { id: carId } })
+    res.send({ message: `Deleted Car with an id of ${carId}` })
   } catch (error) {
     throw error
   }
@@ -35,7 +31,6 @@ const DeleteCar = async (req, res) => {
 
 module.exports = {
   GetAllCars,
-  GetCarDetails,
   CreateCar,
   DeleteCar
 }
