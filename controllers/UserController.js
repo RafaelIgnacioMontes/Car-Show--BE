@@ -8,7 +8,17 @@ const GetUsers = async (req, res) => {
     throw error
   }
 }
+const DeleteUser = async (req, res) => {
+  try {
+    let userId = parseInt(req.params.user_id)
+    await User.destroy({ where: { id: userId } })
+    res.send({ message: `Deleted User with an id of ${userId}` })
+  } catch (error) {
+    throw error
+  }
+}
 
 module.exports = {
-  GetUsers
+  GetUsers,
+  DeleteUser
 }

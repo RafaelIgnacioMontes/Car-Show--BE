@@ -15,11 +15,5 @@ router.put(
   middleware.verifyToken,
   controller.UpdateComment
 )
-router.delete(
-  '/delete/:comment_id',
-  middleware.stripToken,
-  middleware.verifyToken,
-  controller.DeleteComment
-)
 
 module.exports = router
