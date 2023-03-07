@@ -12,7 +12,7 @@ const GetAllCars = async (req, res) => {
 
 const FindCarByPk = async (req, res) => {
   try {
-    const car = await Car.findByPk(req.params.car_id)
+    const car = await Car.findByPk(req.params.id)
     res.send(car)
     console.log(car)
   } catch (error) {
