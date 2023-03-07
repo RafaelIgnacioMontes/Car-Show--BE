@@ -4,7 +4,7 @@ const middleware = require('../middleware')
 
 router.get('/all', controller.GetAllComments)
 router.post(
-  '/newcomment',
+  '/newcomment/:car_id',
   middleware.stripToken,
   middleware.verifyToken,
   controller.CreateComment
