@@ -12,7 +12,13 @@ const GetAllCars = async (req, res) => {
 
 const FindCarByPk = async (req, res) => {
   try {
+<<<<<<< HEAD
     const car = await Car.findByPk(req.params.id)
+=======
+    const car = await Car.findByPk(req.params.id, {
+      include: [{ model: Comment, as: 'comments' }]
+    })
+>>>>>>> 4484900add17fc066004d01094eba1fd76ce5e28
     res.send(car)
     console.log(car)
   } catch (error) {
