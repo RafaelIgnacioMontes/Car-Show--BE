@@ -2,6 +2,7 @@ const { Comment, User, Car } = require('../models')
 
 const GetAllComments = async (req, res) => {
   try {
+    let carsId = parseInt(req.params.car_id)
     let comments = await Comment.findAll()
     res.send(comments)
   } catch (error) {
