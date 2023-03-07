@@ -9,6 +9,7 @@ router.get(
   // middleware.verifyToken,
   controller.GetAllCarsForUser
 )
+
 router.post(
   '/newcar',
   middleware.stripToken,
