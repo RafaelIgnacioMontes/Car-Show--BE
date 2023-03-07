@@ -15,5 +15,6 @@ router.put(
   middleware.verifyToken,
   controller.UpdateComment
 )
+router.get('all/:car_id', controller.GetAllCommentsForCar)
 
 module.exports = router
