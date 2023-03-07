@@ -16,7 +16,14 @@ const FindCarByPk = async (req, res) => {
     const car = await Car.findByPk(req.params.id)
 =======
     const car = await Car.findByPk(req.params.id, {
-      include: [{ model: Comment, as: 'comments' }]
+      include: [
+        {
+          model: Comment,
+          as: 'comments',
+          required: true,
+          include: { model: User, as: 'car' }
+        }
+      ]
     })
 >>>>>>> 4484900add17fc066004d01094eba1fd76ce5e28
     res.send(car)
