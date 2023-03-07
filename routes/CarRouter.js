@@ -3,12 +3,7 @@ const controller = require('../controllers/CarController')
 const middleware = require('../middleware')
 
 router.get('/all', controller.GetAllCars)
-router.get(
-  '/user/:user_id',
-  // middleware.stripToken,
-  // middleware.verifyToken,
-  controller.GetAllCarsForUser
-)
+router.get('/user/:user_id', controller.GetAllCarsForUser)
 
 router.post(
   '/newcar',
@@ -22,5 +17,6 @@ router.delete(
   middleware.verifyToken,
   controller.DeleteCar
 )
+router.get('/car/:car_id', controller.FindCarByPk)
 
 module.exports = router
