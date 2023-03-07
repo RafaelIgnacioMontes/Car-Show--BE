@@ -10,6 +10,16 @@ const GetAllCars = async (req, res) => {
   }
 }
 
+const FindCarByPk = async (req, res) => {
+  try {
+    const car = await Car.findByPk(req.params.car_id)
+    res.send(car)
+    console.log(car)
+  } catch (error) {
+    throw error
+  }
+}
+
 const GetAllCarsForUser = async (req, res) => {
   try {
     let userId = parseInt(req.params.user_id)
@@ -43,5 +53,6 @@ module.exports = {
   GetAllCars,
   CreateCar,
   DeleteCar,
-  GetAllCarsForUser
+  GetAllCarsForUser,
+  FindCarByPk
 }
