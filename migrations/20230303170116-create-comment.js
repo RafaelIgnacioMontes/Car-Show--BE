@@ -25,7 +25,6 @@ module.exports = {
       },
       carsId: {
         type: Sequelize.INTEGER,
-        allowNull: false,
         field: 'car_id',
         onDelete: 'CASCADE',
         references: {
