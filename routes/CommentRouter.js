@@ -16,5 +16,11 @@ router.put(
   controller.UpdateComment
 )
 router.get('all/:car_id', controller.GetAllCommentsForCar)
+router.delete(
+  '/delete/:id',
+  middleware.stripToken,
+  middleware.verifyToken,
+  controller.DeleteComment
+)
 
 module.exports = router
