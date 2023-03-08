@@ -35,7 +35,6 @@ module.exports = (sequelize, DataTypes) => {
       },
       carsId: {
         type: DataTypes.INTEGER,
-        allowNull: false,
         field: 'car_id',
         onDelete: 'CASCADE',
         references: {

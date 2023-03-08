@@ -19,7 +19,7 @@ const FindCarByPk = async (req, res) => {
         {
           model: Comment,
           as: 'comments',
-          required: true,
+          // required: true,
           include: { model: User, as: 'car' }
         }
       ]
