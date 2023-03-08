@@ -11,15 +11,15 @@ router.post(
 )
 router.put(
   '/update/:comment_id',
-  middleware.stripToken,
-  middleware.verifyToken,
+  // middleware.stripToken,
+  // middleware.verifyToken,
   controller.UpdateComment
 )
 router.get('all/:car_id', controller.GetAllCommentsForCar)
 router.delete(
-  '/delete/:id',
-  middleware.stripToken,
-  middleware.verifyToken,
+  '/delete/:comment_id',
+  // middleware.stripToken,
+  // middleware.verifyToken,
   controller.DeleteComment
 )
 
