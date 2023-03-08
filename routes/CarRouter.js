@@ -11,12 +11,7 @@ router.post(
   middleware.verifyToken,
   controller.CreateCar
 )
-router.delete(
-  '/delete/:car_id',
-  middleware.stripToken,
-  middleware.verifyToken,
-  controller.DeleteCar
-)
+router.delete('/delete/:car_id', controller.DeleteCar)
 router.get('/car/:id', controller.FindCarByPk)
 
 module.exports = router
