@@ -16,6 +16,7 @@ module.exports = (sequelize, DataTypes) => {
       })
       User.hasMany(models.Car, {
         foreignKey: 'userId',
+        as: 'owner',
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
       })
