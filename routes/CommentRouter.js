@@ -17,7 +17,7 @@ router.put(
 )
 router.get('all/:car_id', controller.GetAllCommentsForCar)
 router.delete(
-  '/delete/:id',
+  '/delete/:comment_id',
   middleware.stripToken,
   middleware.verifyToken,
   controller.DeleteComment

@@ -7,8 +7,8 @@ router.get('/user/:user_id', controller.GetAllCarsForUser)
 
 router.post(
   '/newcar',
-  // middleware.stripToken,
-  // middleware.verifyToken,
+  middleware.stripToken,
+  middleware.verifyToken,
   controller.CreateCar
 )
 router.delete(
