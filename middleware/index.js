@@ -37,6 +37,7 @@ const verifyToken = (req, res, next) => {
 
 const stripToken = (req, res, next) => {
   try {
+    console.log(req.headers)
     const token = req.headers['authorization'].split(' ')[1]
     if (token) {
       res.locals.token = token
