@@ -22,5 +22,6 @@ router.delete(
   middleware.verifyToken,
   controller.DeleteComment
 )
+router.delete('/delete/:comment_id', controller.DeleteComment)
 
 module.exports = router
