@@ -52,6 +52,7 @@ const ChangePassword = async (req, res) => {
       let passwordDigest = await middleware.hashPassword(newPassword)
       await user.update({ passwordDigest })
       let payload = {
+        userName: user.userName,
         id: user.id,
         email: user.email
       }
