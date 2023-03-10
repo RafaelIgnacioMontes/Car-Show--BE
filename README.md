@@ -1,4 +1,4 @@
-# Project-3-Back-End
+# Project-3-Front-End
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### **_Description_**
 
-### A website where motorheads can show their collections to other motorheads.
+### A webiste where motorheads can show their collections to other motorheads.
 
 ---
 
@@ -44,15 +44,13 @@
 
 ###### Home
 
-### ![Home Page]()
+### ![Home Page](https://media.discordapp.net/attachments/1080980866190282762/1083763879194140703/Screenshot_2023-03-10_at_9.50.31_AM.png?width=1410&height=804)
 
-###### Add a Car
+###### Car Details
 
-### ![Add a Ride!]()
+### ![Car Details](https://media.discordapp.net/attachments/1080980866190282762/1083763384413069402/Screenshot_2023-03-10_at_9.28.35_AM.png?width=1160&height=1056)
 
-###### Register ![Join the Club]()
-
-###### Log In
+###### About Page ![About Page](https://media.discordapp.net/attachments/1080980866190282762/1083763415933259826/Screenshot_2023-03-10_at_9.33.06_AM.png?width=1410&height=753)
 
 ### **_Future Updates_**
 

@@ -3,7 +3,9 @@ const { Op, literal, fn, col } = require('sequelize')
 
 const GetAllCars = async (req, res) => {
   try {
-    const cars = await Car.findAll()
+    const cars = await Car.findAll({
+      include: [{ model: Comment, as: 'comments' }]
+    })
     res.send(cars)
   } catch (error) {
     throw error
