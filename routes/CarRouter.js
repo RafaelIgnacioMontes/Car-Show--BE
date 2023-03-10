@@ -5,12 +5,7 @@ const middleware = require('../middleware')
 router.get('/all', controller.GetAllCars)
 router.get('/user/:user_id', controller.GetAllCarsForUser)
 
-router.post(
-  '/newcar',
-  middleware.stripToken,
-  middleware.verifyToken,
-  controller.CreateCar
-)
+router.post('/newcar', controller.CreateCar)
 router.delete(
   '/delete/:car_id',
   middleware.stripToken,

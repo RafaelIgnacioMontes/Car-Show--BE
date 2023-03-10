@@ -1,4 +1,4 @@
-# Project-3-Back-End
+# Project-3-Front-End
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### **_Description_**
 
-### A website where motorheads can show their collections to other motorheads.
+### A webiste where motorheads can show their collections to other motorheads.
 
 ---
 
@@ -44,15 +44,13 @@
 
 ###### Home
 
-### ![Home Page]()
+### ![Home Page](https://imgur.com/a/0YgtXg6)
 
-###### Add a Car
+###### Car Details
 
-### ![Add a Ride!]()
+### ![Car Details](https://imgur.com/a/XXiY63w)
 
-###### Register ![Join the Club]()
-
-###### Log In
+###### About Page [About Page](https://imgur.com/a/iAPdE2i)
 
 ### **_Future Updates_**
 

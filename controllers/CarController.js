@@ -21,6 +21,10 @@ const FindCarByPk = async (req, res) => {
           as: 'comments',
           // required: true,
           include: { model: User, as: 'car' }
+        },
+        {
+          model: User,
+          as: 'owner'
         }
       ]
     })
@@ -52,9 +56,12 @@ const CreateCar = async (req, res) => {
 
 const DeleteCar = async (req, res) => {
   try {
-    let carId = parseInt(req.params.car_id)
-    await Car.destroy({ where: { id: carId } })
-    res.send({ message: `Deleted Car with an id of ${carId}` })
+    await Car.destroy({ where: { id: req.params.car_id } })
+    res.send({
+      message: `Deleted Car with an id of ${req.params.car_id}`,
+      payload: req.params.car_id,
+      status: 'Ok'
+    })
   } catch (error) {
     throw error
   }
