@@ -44,13 +44,13 @@
 
 ###### Home
 
-### ![Home Page](https://imgur.com/a/0YgtXg6)
+### ![Home Page](https://media.discordapp.net/attachments/1080980866190282762/1083763879194140703/Screenshot_2023-03-10_at_9.50.31_AM.png?width=1410&height=804)
 
 ###### Car Details
 
-### ![Car Details](https://imgur.com/a/XXiY63w)
+### ![Car Details](https://media.discordapp.net/attachments/1080980866190282762/1083763384413069402/Screenshot_2023-03-10_at_9.28.35_AM.png?width=1160&height=1056)
 
-###### About Page [About Page](https://imgur.com/a/iAPdE2i)
+###### About Page ![About Page](https://media.discordapp.net/attachments/1080980866190282762/1083763415933259826/Screenshot_2023-03-10_at_9.33.06_AM.png?width=1410&height=753)
 
 ### **_Future Updates_**
 
